@@ -1,274 +1,312 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T22:45:21.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MQ95OpNsTacHfRcXCiOx" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-30T01:28:03.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y7PwX4xKkjnnoUUP_7UB" version="21.5.2" type="github" pages="2">
   <diagram id="d3QQPoq8rLvSSF91qQDx" name="diagrama">
-    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ORIvwSizXhw8nShr5_tj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-1" target="ORIvwSizXhw8nShr5_tj-3">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-1" target="ORIvwSizXhw8nShr5_tj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.436;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-1" target="ORIvwSizXhw8nShr5_tj-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="120" y="230" />
-              <mxPoint x="480" y="230" />
-              <mxPoint x="480" y="113" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.35;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-1" target="ORIvwSizXhw8nShr5_tj-21">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="162" y="480" />
-              <mxPoint x="160" y="480" />
-              <mxPoint x="160" y="520" />
-              <mxPoint x="257" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-1" value="Processo 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="62" y="260" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-2" value="&lt;b&gt;Recebe:&lt;br&gt;&lt;/b&gt;KML, data&lt;br&gt;&lt;br&gt;&lt;b&gt;Retorna:&lt;br&gt;&lt;/b&gt;requisicao GEE&lt;br&gt;requisicao Weather" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-1">
-          <mxGeometry y="30" width="130" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="ORIvwSizXhw8nShr5_tj-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="372.07692307692287" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-3" value="API GEE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="10" width="240" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-4" value="Recebe:&lt;br&gt;requisição (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;janela de tempo (t), &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;coordenadas)&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;Conjunto de Imagens na Janela (t)&lt;br&gt;(Azul, Verde, Vermelho e Infravermelho" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-3">
-          <mxGeometry y="30" width="230" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="ORIvwSizXhw8nShr5_tj-9">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-1" target="ORIvwSizXhw8nShr5_tj-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="ORIvwSizXhw8nShr5_tj-21">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-1" target="ORIvwSizXhw8nShr5_tj-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-606" y="810" />
+              <mxPoint x="-245" y="810" />
+              <mxPoint x="-245" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-1" value="Processo 1" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-706" y="385" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-2" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;KML, data&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;requisicao GEE&lt;br style=&quot;font-size: 14px;&quot;&gt;requisicao Weather" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-1">
+          <mxGeometry y="25" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-3" value="API GEE" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-416" y="530" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-4" value="Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;requisição (&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;janela de tempo (t), &lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;coordenadas)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Conjunto de Imagens na Janela (t)&lt;br style=&quot;font-size: 14px;&quot;&gt;(Azul, Verde, Vermelho e Infravermelho" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-3">
+          <mxGeometry x="7" y="23" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="ORIvwSizXhw8nShr5_tj-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="ORIvwSizXhw8nShr5_tj-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="750" />
-              <mxPoint x="880" y="750" />
-              <mxPoint x="880" y="657" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#BD7000;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="ORIvwSizXhw8nShr5_tj-60">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="596" y="430" />
-              <mxPoint x="596" y="670" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-5" value="Processo 2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="332" y="260" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-6" value="Recebe:&lt;br&gt;Conjunto de Imagens&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;Imagem RGB (data 0)&lt;br&gt;Imagem RBNir (data 0)&lt;br&gt;Imagem RBNir (data 0)&lt;br&gt;Vetor de Imagens RBNir (t)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-5">
-          <mxGeometry y="20" width="170" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-43" value="Vetor NDVI / Vetor EVI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-9">
-          <mxGeometry x="0.1739" relative="1" as="geometry">
-            <mxPoint x="1080.0000000000005" y="160" as="targetPoint" />
-            <mxPoint x="890.0000000000005" y="359.9999999999998" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="740" y="260" />
-              <mxPoint x="740" y="230" />
-              <mxPoint x="880" y="230" />
-              <mxPoint x="880" y="160" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PVb6LjIy3GLqianQb5Y7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-9" target="ORIvwSizXhw8nShr5_tj-60">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="PVb6LjIy3GLqianQb5Y7-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-9" value="Processo 3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="260" width="200" height="200" as="geometry" />
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-5" target="ORIvwSizXhw8nShr5_tj-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="680" />
+              <mxPoint x="-20" y="1210" />
+              <mxPoint x="15" y="1210" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-10" value="Recebe:&lt;br&gt;Vetor de Imagens RBNir&lt;br&gt;&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;Vetor NDVI&lt;br&gt;Vetor EVI" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-9">
-          <mxGeometry y="40" width="150" height="110" as="geometry" />
+        <mxCell id="ORIvwSizXhw8nShr5_tj-5" value="Processo 2" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="528" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-11" value="API&amp;nbsp; Weather" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="10" width="230" height="200" as="geometry" />
+        <mxCell id="ORIvwSizXhw8nShr5_tj-6" value="Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;Conjunto de Imagens&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Imagem RGB (data 0)&lt;br style=&quot;font-size: 14px;&quot;&gt;Imagem RBNir (data 0)&lt;br style=&quot;font-size: 14px;&quot;&gt;Imagem RBNir (data 0)&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de Imagens RBNir (t)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-5">
+          <mxGeometry x="10" y="25" width="190" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-12" value="Recebe:&lt;br&gt;requisição (&lt;br&gt;&#x9;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;janela de tempo (t),&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;coordenadas)&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;Matriz de dados climáticos na janela (t)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-11">
-          <mxGeometry y="55" width="230" height="110" as="geometry" />
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-9" target="ORIvwSizXhw8nShr5_tj-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="560" />
+              <mxPoint x="610" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a0522d;strokeColor=#6D1F00;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-16" target="ORIvwSizXhw8nShr5_tj-20">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-9" target="ORIvwSizXhw8nShr5_tj-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.545;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#a0522d;strokeColor=#6D1F00;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-16" target="ORIvwSizXhw8nShr5_tj-21">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-9" target="ORIvwSizXhw8nShr5_tj-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="560" />
+              <mxPoint x="300" y="1280" />
+              <mxPoint x="458" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-9" value="Processo 4" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-10" value="Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de Imagens RBNir&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor NDVI&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor EVI" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-9">
+          <mxGeometry x="10" y="30" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-11" target="ORIvwSizXhw8nShr5_tj-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="310" />
+              <mxPoint x="385" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-11" target="ORIvwSizXhw8nShr5_tj-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="355" />
+              <mxPoint x="680" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-11" target="ORIvwSizXhw8nShr5_tj-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="390" />
+              <mxPoint x="-90" y="1300" />
+              <mxPoint x="400" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-11" value="API&amp;nbsp; Weather" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-416" y="255" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-12" value="Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;requisição (&lt;br style=&quot;font-size: 14px;&quot;&gt;&#x9;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;janela de tempo (t),&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;coordenadas)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Matriz de dados climáticos na janela (t)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-11">
+          <mxGeometry x="10" y="45" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-16" value="DB 1" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-706" y="900" width="200" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-17" value="CPF&lt;br style=&quot;font-size: 14px;&quot;&gt;Área Segurada&lt;br style=&quot;font-size: 14px;&quot;&gt;Histórico&lt;br style=&quot;font-size: 14px;&quot;&gt;Monitoramento" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-16">
+          <mxGeometry x="5" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-18" target="ORIvwSizXhw8nShr5_tj-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-580" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1025" y="1840" />
+              <mxPoint x="-656" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-18" value="Tabela: Monitoramento" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1360" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-19" value="chave: Coordenadas Geográficas&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Semana 1&lt;br style=&quot;font-size: 14px;&quot;&gt;Semana 2&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;.&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;.&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;.&lt;br style=&quot;font-size: 14px;&quot;&gt;Semana n&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-18">
+          <mxGeometry y="25" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-20" target="ORIvwSizXhw8nShr5_tj-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.545;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#a0522d;strokeColor=#6D1F00;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-16" target="ORIvwSizXhw8nShr5_tj-23">
+        <mxCell id="ORIvwSizXhw8nShr5_tj-20" value="Tabela:&amp;nbsp; CPF" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="1360" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-21" target="ORIvwSizXhw8nShr5_tj-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1680" />
+              <mxPoint x="-556" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-21" value="Tabela: Área Segurada" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1360" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-22" value="chave: CPF&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Coordenadas Geográficas&lt;br style=&quot;font-size: 14px;&quot;&gt;KML&lt;br style=&quot;font-size: 14px;&quot;&gt;Imagem RGB data 0&lt;br style=&quot;font-size: 14px;&quot;&gt;Confirmação da cultura&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-21">
+          <mxGeometry x="5" y="40" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-23" target="ORIvwSizXhw8nShr5_tj-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="1760" />
+              <mxPoint x="-606" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-23" value="Tabela: Histórico" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1360" width="232" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-24" value="chave: Coordenadas Geográficas&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;NDVI&lt;br style=&quot;font-size: 14px;&quot;&gt;EVI&lt;br style=&quot;font-size: 14px;&quot;&gt;Dados climáticos&lt;br style=&quot;font-size: 14px;&quot;&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-23">
+          <mxGeometry x="2" y="35" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-31" target="ORIvwSizXhw8nShr5_tj-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a0522d;strokeColor=#6D1F00;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-16" target="ORIvwSizXhw8nShr5_tj-18">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-31" target="ORIvwSizXhw8nShr5_tj-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1115" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-31" value="Machine Learning 1" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="850" width="200" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-32" value="recebe: &lt;br style=&quot;font-size: 14px;&quot;&gt;Imagem RBNir&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 1&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 2&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 3&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 4&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 5&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 6&lt;br style=&quot;font-size: 14px;&quot;&gt;CNN Binária 7" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-31">
+          <mxGeometry x="10" y="15" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-39" value="Machine Learning 3" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="860" y="210" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-40" value="Recebe;&lt;br style=&quot;font-size: 14px;&quot;&gt;vetor&amp;nbsp; EVI&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor NDVI&lt;br style=&quot;font-size: 14px;&quot;&gt;Matriz dados Climáticos&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de Histórico de Cultivo&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor Mecanismo de Atenção" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-39">
+          <mxGeometry x="10" y="20" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#0ac8c8;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-41" target="ORIvwSizXhw8nShr5_tj-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1533" y="310" />
+              <mxPoint x="1533" y="1190" />
+              <mxPoint x="1083" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-41" target="PVb6LjIy3GLqianQb5Y7-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1640" y="280" />
+              <mxPoint x="1640" y="1280" />
+              <mxPoint x="1410" y="1280" />
+              <mxPoint x="1410" y="1310" />
+              <mxPoint x="1415" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-41" value="Machine Learning 4" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="210" width="245" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-42" value="Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Vetor de Atenção&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;LSTM probabilidade de Frustracao&lt;br style=&quot;font-size: 14px;&quot;&gt;LSTM Risco na data 0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-41">
+          <mxGeometry x="5" y="30" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-60" target="ORIvwSizXhw8nShr5_tj-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="830" />
+              <mxPoint x="750" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-60" target="ORIvwSizXhw8nShr5_tj-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-16" value="DB 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="550" width="200" height="215" as="geometry" />
+        <mxCell id="ORIvwSizXhw8nShr5_tj-60" value="Processo 5" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="750" width="215" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-17" value="CPF&lt;br&gt;Área Segurada&lt;br&gt;Histórico&lt;br&gt;Monitoramento" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-16">
-          <mxGeometry x="5" y="35" width="100" height="70" as="geometry" />
+        <mxCell id="ORIvwSizXhw8nShr5_tj-61" value="Recebe:&amp;nbsp;&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de Imagens RBNir&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de EVI&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de NDVI&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Vetor de Histórico de Cultivo" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-60">
+          <mxGeometry x="15" y="40" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-18" value="Tabela: Monitoramento" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="920" width="190" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-19" value="chave: Coordenadas Geográficas&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Semana 1&lt;br&gt;Semana 2&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;.&lt;br&gt;Semana n&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-18">
-          <mxGeometry y="35" width="200" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-20" value="Tabela:&amp;nbsp; CPF" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="920" width="160" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-21" value="Tabela: Área Segurada" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="920" width="190" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-22" value="chave: CPF&lt;br&gt;&lt;br&gt;Coordenadas Geográficas&lt;br&gt;KML&lt;br&gt;Imagem RGB data 0&lt;br&gt;Confirmação da cultura&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-21">
-          <mxGeometry x="5" y="26" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-23" value="Tabela: Histórico" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="920" width="186" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-24" value="chave: Coordenadas Geográficas&lt;br&gt;&lt;br&gt;NDVI&lt;br&gt;EVI&lt;br&gt;Dados climáticos&lt;br&gt;Anomalias" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-23">
-          <mxGeometry x="2" y="35" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-31">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#a20025;strokeColor=#6F0000;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-48" target="PVb6LjIy3GLqianQb5Y7-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1330" y="690" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1260" y="690" />
-              <mxPoint x="1331" y="690" />
+              <mxPoint x="1430" y="1120" />
+              <mxPoint x="1357" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f0a30a;strokeColor=#BD7000;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-31">
+        <mxCell id="ORIvwSizXhw8nShr5_tj-48" value="Machine Learning 5" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="510" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-49" value="Recebe;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;vetor&amp;nbsp; EVI&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Vetor NDVI&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Matriz dados Climáticos&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Encoder-Decoder Anomalias no histórico" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-48">
+          <mxGeometry x="10" y="35" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e3c800;strokeColor=#B09500;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-33" target="ORIvwSizXhw8nShr5_tj-60">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1330" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1331" y="600" />
+              <mxPoint x="1220" y="1100" />
+              <mxPoint x="458" y="1100" />
+              <mxPoint x="458" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-31" value="Machine Learning 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="557.5" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-32" value="recebe: &lt;br&gt;Imagem RBNir&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;CNN Binária 1&lt;br&gt;CNN Binária 2&lt;br&gt;CNN Binária 3&lt;br&gt;CNN Binária 4&lt;br&gt;CNN Binária 5&lt;br&gt;CNN Binária 6&lt;br&gt;CNN Binária 7" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-31">
-          <mxGeometry x="10" y="30" width="100" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-33" value="Machine Learning 2" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1331" y="557.5" width="200" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-34" value="recebe:&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 1&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 2&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 3&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 4&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 5&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 6&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CNN Binária 7&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;MLP Cultura&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-33">
-          <mxGeometry x="11" y="30" width="100" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ORIvwSizXhw8nShr5_tj-21">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-33" target="PVb6LjIy3GLqianQb5Y7-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="890" as="targetPoint" />
-            <mxPoint x="1470" y="758" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1470" y="830" />
-              <mxPoint x="360" y="830" />
-              <mxPoint x="360" y="880" />
-              <mxPoint x="380" y="880" />
+              <mxPoint x="1280" y="1150" />
+              <mxPoint x="168" y="1150" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-39" target="ORIvwSizXhw8nShr5_tj-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1330" y="90" />
-              <mxPoint x="1330" y="100" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ORIvwSizXhw8nShr5_tj-33" value="Machine Learning 2" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="850" width="200" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-39" value="Machine Learning 3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="50" width="200" height="200" as="geometry" />
+        <mxCell id="ORIvwSizXhw8nShr5_tj-34" value="recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 1&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 2&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 3&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 4&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 5&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 6&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;CNN Binária 7&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;MLP Cultura&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-33">
+          <mxGeometry x="11" y="15" width="110" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-40" value="Recebe;&lt;br&gt;vetor&amp;nbsp; EVI&lt;br&gt;Vetor NDVI&lt;br&gt;Matriz dados Climáticos&lt;br&gt;Vetor de Histórico de Cultivo&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;Vetor Mecanismo de Atenção" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-39">
-          <mxGeometry x="10" y="30" width="180" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-41" target="ORIvwSizXhw8nShr5_tj-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="940.0000000000005" y="920" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1490" y="310" />
-              <mxPoint x="1600" y="310" />
-              <mxPoint x="1600" y="890" />
-              <mxPoint x="773" y="890" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-41" value="Machine Learning 4" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="50" width="220" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-42" value="Recebe:&lt;br&gt;&amp;nbsp;Vetor de Atenção&lt;br&gt;&lt;br&gt;Retorna&amp;nbsp;&lt;br&gt;LSTM probabilidade de Frustracao&lt;br&gt;LSTM Risco na data 0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-41">
-          <mxGeometry x="5" y="35" width="210" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-44" value="Matriz Dados Climáticos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=2;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-11" target="ORIvwSizXhw8nShr5_tj-39">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000.0000000000005" y="150" as="targetPoint" />
-            <mxPoint x="750" y="60" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.823;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-48" target="ORIvwSizXhw8nShr5_tj-23">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="560" y="500" />
-              <mxPoint x="560" y="800" />
-              <mxPoint x="567" y="800" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-48" value="Machine Learning 5" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="320" width="250" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-49" value="Recebe;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;vetor&amp;nbsp; EVI&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Vetor NDVI&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Matriz dados Climáticos&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Retorna:&lt;/span&gt;&lt;br style=&quot;&quot;&gt;Encoder-Decoder Anomalias no histórico" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-48">
-          <mxGeometry x="10" y="45" width="240" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-50" value="Matriz Dados Climáticos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-12" target="ORIvwSizXhw8nShr5_tj-48">
-          <mxGeometry x="0.493" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1030" y="140" />
-              <mxPoint x="1030" y="420" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#BD7000;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-60" target="ORIvwSizXhw8nShr5_tj-31">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-6" target="ORIvwSizXhw8nShr5_tj-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-68" value="&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Vetor de Histórico de Cultivos&amp;nbsp;&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#BD7000;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-4" target="ORIvwSizXhw8nShr5_tj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" edge="1" parent="1" source="PVb6LjIy3GLqianQb5Y7-34" target="ORIvwSizXhw8nShr5_tj-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="550.0000000000002" as="sourcePoint" />
-            <mxPoint x="1080" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="920" y="550" />
-              <mxPoint x="920" y="190" />
+              <mxPoint x="380" y="1011" />
+              <mxPoint x="380" y="1011" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-60" value="Processo 4" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="620" y="520" width="200" height="200" as="geometry" />
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;strokeWidth=3;" edge="1" parent="1" source="PVb6LjIy3GLqianQb5Y7-34" target="ORIvwSizXhw8nShr5_tj-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-61" value="Recebe:&amp;nbsp;&lt;br&gt;Vetor de Imagens RBNir&lt;br&gt;Vetor de EVI&lt;br&gt;Vetor de NDVI&lt;br&gt;&lt;br&gt;Retorna:&lt;br&gt;Datas de Ciclo Vegetativo" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ORIvwSizXhw8nShr5_tj-60">
-          <mxGeometry y="52.5" width="160" height="110" as="geometry" />
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-34" value="Processo 3" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="857.5" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ORIvwSizXhw8nShr5_tj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f0a30a;strokeColor=#BD7000;strokeWidth=2;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-34" target="ORIvwSizXhw8nShr5_tj-60">
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-35" value="Recebe:&lt;br style=&quot;font-size: 14px;&quot;&gt;Imagem RBNir (data 0)&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Retorna:&lt;br style=&quot;font-size: 14px;&quot;&gt;Verificação da Cultura&amp;nbsp; (data 0)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="PVb6LjIy3GLqianQb5Y7-34">
+          <mxGeometry x="5" y="37.5" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f9f7ed;strokeColor=#f5f5f5;strokeWidth=3;" edge="1" parent="1" source="ORIvwSizXhw8nShr5_tj-40" target="ORIvwSizXhw8nShr5_tj-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=3;" edge="1" parent="1" target="ORIvwSizXhw8nShr5_tj-16">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1333.04" y="1560" as="sourcePoint" />
+            <mxPoint x="-730" y="1115" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1392" y="810" />
-              <mxPoint x="1101" y="810" />
-              <mxPoint x="1101" y="800" />
-              <mxPoint x="720" y="800" />
+              <mxPoint x="1333" y="1920" />
+              <mxPoint x="-706" y="1920" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-55" value="Tabela: Alertas" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="1360" width="232" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PVb6LjIy3GLqianQb5Y7-56" value="chave: Coordenadas Geográficas&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;Risco na data 0&lt;br style=&quot;font-size: 14px;&quot;&gt;Anomalias" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="PVb6LjIy3GLqianQb5Y7-55">
+          <mxGeometry x="2" y="45" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
